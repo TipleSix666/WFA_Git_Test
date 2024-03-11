@@ -22,7 +22,7 @@ namespace WFA_Git_Test
             int currentYear = int.Parse(textBox1.Text);
             int birthYear = int.Parse(textBox2.Text);
 
-            MessageBox.Show($"Ваш возраст {currentYear - birthYear}");
+            MessageBox.Show($"Your age: {currentYear - birthYear}");
         }
     }
 }
